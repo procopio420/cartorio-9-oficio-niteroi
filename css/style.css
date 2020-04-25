@@ -1,0 +1,495 @@
+* {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  background-color: #f8f9fa;
+}
+
+.btn-primary {
+  background-color: #131968;
+  border: none;
+}
+
+
+/* NAVBAR */
+
+.navbar-personalized {
+  background-color: #131968;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.nav-item {
+  margin: 0 15px;
+}
+
+.nav-link,
+.navbar-brand {
+  color: white;
+}
+
+.navbar-brand:hover {
+  color: white;
+}
+
+.brand-text {
+  font-size: initial;
+}
+
+.brand-container {
+  background-color: white;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+
+/* HERO INDEX */
+
+.hero {
+  height: 80vh;
+  background-image: url("../img/1.jpeg");
+  background-size: cover;
+}
+
+.hero-container {
+  background-color: rgba(0, 0, 0, 0.55);
+  padding: 3%;
+  border-radius: 15px;
+  max-width: 1400px;
+}
+
+.title {
+  font-size: 48px;
+  font-weight: bolder;
+  color: white;
+}
+
+.title-line {
+  border-color: white;
+}
+
+.subtitle {
+  color: white;
+  font-size: 24px;
+}
+
+.items-container {
+  margin: 2.5% 0;
+}
+
+.item-container {
+  max-width: 150px;
+  border: 3px solid white;
+  padding: 0 2%;
+  border-radius: 15px;
+  margin: 0 1%;
+}
+
+.item-container:hover {
+  border: 5px solid #131968;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.item-container:hover .serv-title {
+  color: #131968;
+  font-weight: bolder;
+}
+
+.item-container:hover .servico-title {
+  color: #131968;
+  font-weight: bolder;
+}
+
+.img-container {
+  background-color: rgba(255, 255, 255, 0.25);
+  border-radius: 50%;
+  padding: 20%;
+}
+
+.serv-img {
+  margin: 5% 0;
+  color: white;
+  width: 100%;
+}
+
+.serv-title {
+  color: white;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+
+/* BANNER */
+
+.main-title-container {
+  margin: 0 0 2.5%;
+  width: 100%;
+  height: 30vh;
+  background-size: cover;
+  background-color: #131968;
+}
+
+.main-title {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 60px;
+  font-weight: bold;
+  color: white;
+}
+
+
+/* INTRO */
+
+.gallery-container {
+  background-color: #131968;
+  padding: 5%;
+  width: 90%;
+  border-radius: 15px;
+}
+
+.info-container {
+  border: 5px solid #131968;
+  padding: 5% 0 0 5%;
+  border-radius: 15px;
+  margin-top: 10%;
+}
+
+.info-subtitle {
+  color: #131968;
+  font-weight: bolder;
+}
+
+.info-description {
+  color: #131968;
+  margin-left: 10%;
+}
+
+.intro-title {
+  font-size: 30px;
+  font-weight: bolder;
+  color: #131968;
+}
+
+.map-container {
+  background-color: #131968;
+  padding: 2% 4%;
+  border-radius: 15px;
+  margin: 2% 0;
+}
+
+.intro-title {
+  margin-bottom: 2%;
+}
+
+
+/* FOOTER */
+
+.footer {
+  background-color: #131968;
+  padding: 2.5% 0;
+}
+
+.form-container {
+  margin-top: 2%;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 2.5%;
+  border-radius: 15px;
+  width: 80%;
+}
+
+.form-container input {
+  width: 100%;
+  min-height: 40px;
+  margin: 5px 0;
+  border-radius: 10px;
+  border: none;
+}
+
+.form-container textarea {
+  width: 100%;
+  margin: 5px 0;
+  border-radius: 10px;
+}
+
+.serv-form input,
+textarea {
+  margin: 5px 0;
+  border-radius: 10px;
+  width: 100%;
+}
+
+
+/* SERVIÇOS */
+
+.hero-serv {
+  height: auto;
+  background-image: url("../img/1.jpeg");
+  background-size: cover;
+  padding: 3% 0;
+}
+
+.servico {
+  height: auto;
+}
+
+.servico-title {
+  font-size: 25px;
+  color: white;
+  font-weight: 500;
+}
+
+.serv-title-content {
+  margin: 2% 0;
+}
+
+.serv-btn {
+  margin: 0 10px;
+  padding: 25px;
+  background-color: #131968;
+  border: 2px solid white;
+  border-radius: 15px;
+  font-weight: bolder;
+  font-size: large;
+}
+
+
+/* SERVIÇO */
+
+.hero-servico {
+  min-height: 90vh;
+  background-image: url("../img/1.jpeg");
+  background-size: cover;
+  padding: 3% 0.5% 3% 0;
+}
+
+.menu-container {
+  background-color: rgba(0, 0, 0, 0.55);
+  padding: 5% 3%;
+  border-radius: 0 15px 15px 0;
+}
+
+.serv-line {
+  border-color: white;
+}
+
+.menu-title {
+  color: white;
+  font-weight: bold;
+}
+
+.menu-subtitle {
+  color: white;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.menu-list {
+  list-style-type: none;
+}
+
+.menu-list-item {
+  color: white;
+}
+
+.menu-list-link {
+  color: white;
+}
+
+.menu-active {
+  font-weight: bolder;
+}
+
+.menu-list-link:hover {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.serv-title1 {
+  color: white;
+  font-weight: bolder;
+}
+
+.serv-subtitle {
+  color: white;
+  font-weight: bold;
+}
+
+.serv-text {
+  color: white;
+}
+
+.serv-list-item {
+  color: white;
+}
+
+.serv-contact-title {
+  color: white;
+  font-weight: bolder;
+}
+
+.serv-contact-text {
+  color: white;
+}
+
+.serv-form input,
+textarea {
+  margin: 5px 0;
+  border: none;
+  border-radius: 10px;
+  width: 100%;
+}
+
+.serv-form input {
+  height: 40px;
+}
+
+.attention-container {
+  margin-top: 20px;
+  width: 75%;
+  border: 3px solid white;
+  padding: 1% 0 0;
+  border-radius: 15px;
+}
+
+
+/* ANDAMENTOS */
+
+.andamento-input {
+  width: 30%;
+  border-radius: 10px 0px 0px 10px;
+  border: none;
+}
+
+.andamento-btn {
+  border-radius: 0 10px 10px 0;
+}
+
+.hero-andamentos {
+  height: 99vh;
+  background-image: url("../img/1.jpeg");
+  background-size: cover;
+  padding: 3% 0;
+}
+
+
+/* CONTATO */
+
+.contact-title {
+  color: white;
+  font-weight: bold;
+}
+
+.contact-container {
+  border: 3px solid white;
+  border-radius: 15px;
+  margin: 1%;
+  padding: 10px 0;
+}
+
+.contact-img {
+  width: 30%;
+}
+
+.contact-text {
+  color: white;
+}
+
+.hero-contact {
+  height: auto;
+  background-image: url("../img/1.jpeg");
+  background-size: cover;
+  padding: 3% 0;
+}
+
+.form-contact input,
+textarea {
+  margin: 5px 0;
+  border-radius: 10px;
+  width: 100%;
+  border: none;
+}
+
+.form-contact input {
+  height: 50px;
+}
+
+@media screen and (max-width: 700px) {
+  .hero {
+    height: 100%;
+  }
+  .hero-container {
+    background-color: transparent;
+  }
+  .title {
+    font-size: 28px;
+  }
+  .subtitle {
+    font-size: 16px;
+    padding: 0 10px;
+  }
+  .item-container {
+    margin: 1% 0;
+    max-width: 75%;
+    max-height: 400px;
+  }
+  .serv-img {
+    width: 50%;
+  }
+  .main-title {
+    font-size: 30px;
+    text-align: center;
+  }
+  .intro-title {
+    font-size: 20px;
+  }
+  .gallery-container {
+    width: 100%;
+  }
+  .map-container {
+    width: 90%;
+  }
+  .map {
+    width: 95%;
+  }
+  .hero-serv {
+    height: 100%;
+  }
+  .servico {
+    width: 100%;
+    height: 90%;
+    overflow: hidden;
+  }
+  .serv-btn {
+    width: 80%;
+    margin: 5px 0;
+  }
+  .andamento-input {
+    width: 60%;
+    font-size: 14px;
+  }
+  .contact-title {
+    font-size: 1.25rem;
+  }
+  .form-contact-container {
+    width: 90%;
+  }
+  .title-service-container {
+    justify-content: center;
+  }
+  .menu-container {
+    width: 90%;
+    margin: 2% 5%;
+    border-radius: 15px;
+  }
+  .serv-title1 {
+    font-size: 32px;
+  }
+  .brand-text {
+    font-size: 12px;
+  }
+}

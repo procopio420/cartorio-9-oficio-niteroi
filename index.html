@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <title>CARTÓRIO 9 OFÍCIO DE NITERÓI</title>
+    <meta name="description" content="">
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+
+    <link rel="icon" href="./img/logo2.png">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark navbar-personalized">
+        <!--  Show this only on mobile to medium screens  -->
+        <a class="navbar-brand d-lg-none" href="index.html">
+            <div class="row align-items-center">
+                <div class="col-4">
+                    <img height="75px" src="./img/logo2.png" alt="">
+                </div>
+                <div class="col-8 brand-text">
+                    9º Ofício de Niterói-RJ<br> Registro de Imóveis<br> e Tabelionato de Notas
+                </div>
+            </div>
+        </a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggle" aria-controls="navbarToggle" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!--  Use flexbox utility classes to change how the child elements are justified  -->
+        <div class="collapse navbar-collapse justify-content-around" id="navbarToggle">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="servicos.html">Serviços</a>
+                </li>
+            </ul>
+            <!--   Show this only lg screens and up   -->
+            <a class="navbar-brand d-none d-lg-block" href="index.html">
+                <div class="row align-items-center">
+                    <div class="col-4">
+                        <img height="100px" src="./img/logo2.png" alt="">
+                    </div>
+                    <div class="col-6 brand-text">
+                        9º Ofício de Niterói-RJ<br> Registro de Imóveis<br> e Tabelionato de Notas
+                    </div>
+                </div>
+            </a>
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="andamentos.html">Andamentos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contato.html">Contato</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <section class="hero">
+        <div style="height: 100%" class="row align-items-center">
+            <div class="container hero-container">
+                <div class="row justify-content-center">
+                    <div class="col">
+                        <h1 class="title text-center">COMO PODEMOS TE AJUDAR?</h1>
+                        <hr class="title-line" />
+                        <h2 class="subtitle text-center">Aqui você conhece alguns dos serviços que o 9º Ofício de Niterói oferece</h2>
+                    </div>
+                </div>
+                <div class="row items-container justify-content-center">
+                    <div class="col-md-2 col-sm-12 col-xs-12 item-container" id="main-escritura">
+                        <div class="row justify-content-center">
+                            <img class="serv-img" src="./img/contract6.svg" alt="" />
+                        </div>
+                        <div class="row justify-content-center align-items-center">
+                            <h3 class="serv-title text-center">Escrituras</h3>
+                        </div>
+                    </div>
+                    <div class="col-md-2 col-sm-12 col-xs-12 item-container" id="main-inventario">
+                        <div class="row justify-content-center">
+                            <img class="serv-img" src="./img/contract4.svg" alt="" />
+                        </div>
+                        <div class="row justify-content-center align-items-center">
+                            <h3 class="serv-title text-center">Inventários</h3>
+                        </div>
+                    </div>
+                    <div class="col-md-2 col-sm-12 col-xs-12 item-container" id="main-divorcio">
+                        <div class="row justify-content-center">
+                            <img class="serv-img" src="./img/contract5.svg" alt="" />
+                        </div>
+                        <div class="row justify-content-center align-items-center">
+                            <h3 class="serv-title text-center">Divórcios</h3>
+                        </div>
+                    </div>
+                    <div class="col-md-2 col-sm-12 col-xs-12 item-container" id="main-usucapiao">
+                        <div class="row justify-content-center">
+                            <img class="serv-img" src="./img/contract3.svg" alt="" />
+                        </div>
+                        <div class="row justify-content-center align-items-center">
+                            <h3 class="serv-title text-center">Usucapião</h3>
+                        </div>
+                    </div>
+                    <div class="col-md-2 col-sm-12 col-xs-12 item-container" id="main-ata">
+                        <div class="row justify-content-center">
+                            <img class="serv-img" src="./img/contract1.svg" alt="" />
+                        </div>
+                        <div class="row justify-content-center align-items-center">
+                            <h3 class="serv-title text-center">Atas Notariais</h3>
+                        </div>
+                    </div>
+                    <div class="col-md-2 col-sm-12 col-xs-12 item-container" id="main-procuracao">
+                        <div class="row justify-content-center">
+                            <img class="serv-img" src="./img/contract7.svg" alt="" />
+                        </div>
+                        <div class="row justify-content-center align-items-center">
+                            <h3 class="serv-title text-center">Procurações</h3>
+                        </div>
+                    </div>
+                    <div class="col-md-2 col-sm-12 col-xs-12 item-container" id="main-certidao">
+                        <div class="row justify-content-center">
+                            <img class="serv-img" src="./img/contract2.svg" alt="" />
+                        </div>
+                        <div class="row justify-content-center align-items-center">
+                            <h3 class="serv-title text-center">Certidões</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <a href="servicos.html" class="btn btn-primary btn-lg"><i class="fab fa-elementor"></i> Lista
+                        completa de
+                        serviços</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="row justify-content-center align-items-center main-title-container">
+        <h1 class="main-title">CARTÓRIO 9 OFÍCIO DE NITERÓI</h1>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 col-xm-12 col-sm-12">
+                <h3 class="intro-title">
+                    <i class="far fa-images"></i> Galeria de fotos
+                </h3>
+                <div class="gallery-container">
+                    <img style="border-radius: 15px;" width="100%" src="./img/cartorio.jpg" alt="">
+                </div>
+            </div>
+            <div class="col-md-4 col-xm-12 col-sm-12">
+                <div class="info-container">
+                    <div class="row">
+                        <div class="col">
+                            <h4 class="info-subtitle">
+                                <i class="far fa-clock"></i> Horário de atendimento
+                            </h4>
+                            <p class="info-description">
+                                De 2 à 6 feira<br> Das 9h às 17h
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col">
+                            <h4 class="info-subtitle">
+                                <i class="fas fa-phone"></i> Contato
+                            </h4>
+                            <p class="info-description">
+                                <b>Telefone:</b> (21) 2613-5381<br>
+                                <b>Email:</b> oficio9.niteroi@ig.com.br
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col">
+                            <h4 class="info-subtitle">
+                                <i class="fas fa-map-marker-alt"></i> Endereço
+                            </h4>
+                            <p class="info-description">
+                                Rua Cel. Gomes Machado, 118<br> Centro, Niterói-RJ<br> 24020-065
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <h4 class="info-subtitle">
+                                <i class="fas fa-search"></i> Ouvidoria
+                            </h4>
+                            <p class="info-description">
+                                <b>Telefone: </b>(21) 9 8168-0876
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row justify-content-center">
+        <div class="container map-container">
+            <div class="row justify-content-center">
+                <h3 class="intro-title text-white">
+                    <i class="fas fa-map-marked-alt"></i> Como chegar?
+                </h3>
+            </div>
+            <div class="row justify-content-center">
+                <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14702.216152499039!2d-43.120631!3d-22.8929269!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x3c718a4efe30a952!2zQ2FydMOzcmlvIGRvIDnCuiBPZsOtY2lv!5e0!3m2!1sen!2sbr!4v1587755679486!5m2!1sen!2sbr"
+                    width="100%" height="300" frameborder="0" style="border-radius: 10px;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            </div>
+        </div>
+    </div>
+    </div>
+    <section class="footer">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col">
+                    <h1 class="title text-center">AINDA PRECISA DE AJUDA?</h1>
+                    <hr class="title-line" />
+                    <h2 class="subtitle text-center">Preencha o formulário abaixo e entraremos em contato o mais breve possível
+                    </h2>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="container form-container">
+                    <form method="POST" action="./php/form_contato.php">
+                        <div class="row">
+                            <div class="col-6">
+                                <input name="name" placeholder=" Nome" />
+                            </div>
+                            <div class="col-6">
+                                <input name="sname" placeholder=" Sobrenome" />
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-6">
+                                <input name="phone" placeholder=" Telefone" />
+                            </div>
+                            <div class="col-6">
+                                <input name="email" placeholder=" Email" />
+                            </div>
+                        </div>
+                        <div class="row justify-content-center">
+                            <div class="col">
+                                <textarea name="message" rows="4" placeholder=" Detalhamento"></textarea>
+                            </div>
+                        </div>
+                        <div class="row justify-content-center">
+                            <button type="submit" class="btn btn-primary">Enviar</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="./js/scriptMain.js"></script>
+    <script src="https://kit.fontawesome.com/78eddd20d4.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
