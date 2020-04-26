@@ -98,6 +98,21 @@ body {
   margin: 0 1%;
 }
 
+.item-container1:hover {
+  border: 5px solid #131968;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.item-container1:hover .serv-title {
+  color: #131968;
+  font-weight: bolder;
+}
+
+.item-container1:hover .servico-title {
+  color: #131968;
+  font-weight: bolder;
+}
+
 .item-container:hover {
   border: 5px solid #131968;
   background-color: rgba(255, 255, 255, 0.1);
