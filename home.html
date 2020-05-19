@@ -3,7 +3,7 @@
 
 <head>
     <title>CARTÓRIO 9 OFÍCIO DE NITERÓI</title>
-    <meta name="description" content="Site do Cartório do 9º Ofício de Justiça de Niterói-RJ. Aqui você encontra informações acerca dos nossos serviços prestados e tem a possibilidade de fazer pedidos diretamente do conforto da sua casa">
+    <meta name="description" content="Site do Cartório do 9º Ofício de Justiça de Niterói-RJ. Aqui você encontra informações acerca dos nossos serviços prestados e pode pedir diretamente da sua casa">
 
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <meta name="google-site-verification" content="Ju_Z9bNkrsNhsE3_atyyk3uFzO4wFWmBPCHikFxYQmc" />
 
 </head>
 
@@ -49,9 +50,9 @@
             <a class="navbar-brand d-none d-lg-block" href="home.html">
                 <div class="row align-items-center">
                     <div class="col-4">
-                        <img height="100px" src="./img/logo2.png" alt="Logo do Cartório 9º Ofício Niterói-RJ">
+                        <img height="100%" width="100%" src="./img/logo2.png" alt="Logo do Cartório 9º Ofício Niterói-RJ">
                     </div>
-                    <div class="col-6 brand-text">
+                    <div class="col-8 brand-text">
                         9º Ofício de Niterói-RJ<br> Registro de Imóveis<br> e Tabelionato de Notas
                     </div>
                 </div>
@@ -67,7 +68,7 @@
         </div>
     </nav>
     <section class="hero">
-        <div style="height: 100%" class="row align-items-center">
+        <div class="row align-items-center hero-row">
             <div class="container hero-container">
                 <div class="row justify-content-center">
                     <div class="col">
@@ -152,7 +153,7 @@
                     <span class="far fa-images"></span> Galeria de fotos
                 </h3>
                 <div class="gallery-container">
-                    <img style="border-radius: 15px;" width="100%" src="./img/cartorio.jpg" alt="Foto da frente do Cartório">
+                    <img width="100%" src="./img/cartorio.jpg" alt="Foto da frente do Cartório">
                 </div>
             </div>
             <div class="col-md-4 col-xm-12 col-sm-12">
@@ -213,7 +214,7 @@
             </div>
             <div class="row justify-content-center">
                 <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14702.216152499039!2d-43.120631!3d-22.8929269!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x3c718a4efe30a952!2zQ2FydMOzcmlvIGRvIDnCuiBPZsOtY2lv!5e0!3m2!1sen!2sbr!4v1587755679486!5m2!1sen!2sbr"
-                    width="100%" height="300" frameborder="0" style="border-radius: 10px;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                    width="100%" height="300" frameborder="0" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
             </div>
         </div>
     </div>
@@ -233,23 +234,23 @@
                     <form method="POST" action="./php/form_contato.php">
                         <div class="row">
                             <div class="col-6">
-                                <input name="name" placeholder=" Nome" />
+                                <input name="name" placeholder=" Nome" required/>
                             </div>
                             <div class="col-6">
-                                <input name="sname" placeholder=" Sobrenome" />
+                                <input name="sname" placeholder=" Sobrenome" required/>
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-6">
-                                <input name="phone" placeholder=" Telefone" />
+                                <input name="phone" placeholder=" Telefone" required/>
                             </div>
                             <div class="col-6">
-                                <input name="email" placeholder=" Email" />
+                                <input name="email" placeholder=" Email" required/>
                             </div>
                         </div>
                         <div class="row justify-content-center">
                             <div class="col">
-                                <textarea name="message" rows="4" placeholder=" Detalhamento"></textarea>
+                                <textarea name="message" rows="4" placeholder=" Detalhamento" required></textarea>
                             </div>
                         </div>
                         <div class="row justify-content-center">

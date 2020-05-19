@@ -3,7 +3,7 @@
 
 <head>
     <title>CARTÓRIO 9 OFÍCIO DE NITERÓI</title>
-    <meta name="description" content="">
+    <meta name="description" content="Site do Cartório do 9º Ofício de Justiça de Niterói-RJ. Aqui você encontra informações acerca dos nossos serviços prestados e tem a possibilidade de fazer pedidos diretamente do conforto da sua casa">
 
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -49,9 +49,9 @@
             <a class="navbar-brand d-none d-lg-block" href="../home.html">
                 <div class="row align-items-center">
                     <div class="col-4">
-                        <img height="100px" src="../img/logo2.png" alt="Logo do Cartório 9º Ofício Niterói-RJ">
+                        <img height="100%" width="100%" src="../img/logo2.png" alt="Logo do Cartório 9º Ofício Niterói-RJ">
                     </div>
-                    <div class="col-6 brand-text">
+                    <div class="col-8 brand-text">
                         9º Ofício de Niterói-RJ<br> Registro de Imóveis<br> e Tabelionato de Notas
                     </div>
                 </div>
@@ -67,7 +67,7 @@
         </div>
     </nav>
     <section class="hero-servico">
-        <div style="height: 100%" class="row align-items-center">
+        <div class="row align-items-center hero-row">
             <div class="col-md-2 col-sm-12 col-xs-12 order-md-0 order-sm-2 order-xs-2">
                 <div class="container menu-container">
                     <h1 class="menu-title">
@@ -260,21 +260,21 @@
                             </div>
                             <form class="serv-form" method="POST" action="../php/form_solicitacao_inventarios.php">
                                 <div class="row">
-                                    <div style="padding-right: 0;" class="col-8">
-                                        <input name="name" placeholder=" Nome Completo" type="text">
+                                    <div class="col-8 pr">
+                                        <input name="name" placeholder=" Nome Completo" type="text" required>
                                     </div>
-                                    <div style="padding-left: 5px;" class="col-4">
-                                        <input name="phone" placeholder=" Telefone" type="text">
-                                    </div>
-                                </div>
-                                <div class="row justify-content-center">
-                                    <div class="col">
-                                        <input name="email" placeholder=" Email" type="text">
+                                    <div class="col-4 pl">
+                                        <input name="phone" placeholder=" Telefone" type="text" required>
                                     </div>
                                 </div>
                                 <div class="row justify-content-center">
                                     <div class="col">
-                                        <textarea placeholder=" Observações" name="message" id="" cols="30" rows="10"></textarea>
+                                        <input name="email" placeholder=" Email" type="email" required>
+                                    </div>
+                                </div>
+                                <div class="row justify-content-center">
+                                    <div class="col">
+                                        <textarea placeholder=" Observações" name="message" id="" cols="30" rows="10" required></textarea>
                                     </div>
                                 </div>
                                 <div class="row justify-content-center">

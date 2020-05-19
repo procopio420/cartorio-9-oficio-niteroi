@@ -14,6 +14,14 @@ body {
   border: none;
 }
 
+.pr {
+  padding-right: 0;
+}
+
+.pl {
+  padding-left: 5px;
+}
+
 
 /* NAVBAR */
 
@@ -38,6 +46,7 @@ body {
 
 .brand-text {
   font-size: initial;
+  margin-left: -25px;
 }
 
 .brand-container {
@@ -56,8 +65,12 @@ body {
   background-size: cover;
 }
 
+.hero-row {
+  height: 100%;
+}
+
 .hero-container {
-  background-color: rgba(0, 0, 0, 0.55);
+  background-color: rgba(0, 0, 0, 0.75);
   padding: 3%;
   border-radius: 15px;
   max-width: 1400px;
@@ -100,7 +113,8 @@ body {
 
 .item-container1:hover {
   border: 5px solid #131968;
-  background-color: rgba(255, 255, 255, 0.1);
+  background-color: rgba(255, 255, 255, 0.25);
+  cursor: pointer;
 }
 
 .item-container1:hover .serv-title {
@@ -115,7 +129,8 @@ body {
 
 .item-container:hover {
   border: 5px solid #131968;
-  background-color: rgba(255, 255, 255, 0.1);
+  background-color: rgba(255, 255, 255, 0.25);
+  cursor: pointer;
 }
 
 .item-container:hover .serv-title {
@@ -143,7 +158,7 @@ body {
 .serv-title {
   color: white;
   font-weight: bold;
-  font-size: 24px;
+  font-size: 20px;
 }
 
 
@@ -171,6 +186,10 @@ body {
   background-color: #131968;
   padding: 5%;
   width: 90%;
+  border-radius: 15px;
+}
+
+.gallery-container img {
   border-radius: 15px;
 }
 
@@ -204,6 +223,10 @@ body {
   margin: 2% 0;
 }
 
+.map {
+  border-radius: 10px;
+}
+
 .intro-title {
   margin-bottom: 2%;
 }
@@ -218,7 +241,7 @@ body {
 
 .form-container {
   margin-top: 2%;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.55);
   padding: 2.5%;
   border-radius: 15px;
   width: 80%;
@@ -290,7 +313,7 @@ textarea {
 }
 
 .menu-container {
-  background-color: rgba(0, 0, 0, 0.55);
+  background-color: rgba(0, 0, 0, 0.75);
   padding: 5% 3%;
   border-radius: 0 15px 15px 0;
 }
@@ -382,14 +405,10 @@ textarea {
 
 /* ANDAMENTOS */
 
-.andamento-input {
-  width: 30%;
-  border-radius: 10px 0px 0px 10px;
-  border: none;
-}
-
 .andamento-btn {
-  border-radius: 0 10px 10px 0;
+  border-radius: 10px;
+  padding: 15px;
+  margin: 0 10px;
 }
 
 .hero-andamentos {
@@ -514,5 +533,6 @@ textarea {
   }
   .brand-text {
     font-size: 12px;
+    margin-left: 0;
   }
 }
