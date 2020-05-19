@@ -3518,7 +3518,7 @@ function executaConsultaAndamentoServcom(vars, funcaoProcessaResposta) {
             url: "http://atualizacaoandamentos.servcom.com.br/Main/",
             data: vars,
             type: "POST",
-            dataType: "jsonb",
+            dataType: "json",
             crossDomain: true,
             contentType: "application/json"
         });
