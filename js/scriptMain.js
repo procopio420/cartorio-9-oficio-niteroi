@@ -12,13 +12,13 @@ let imgsBrancas = ['./img/contract1.svg', './img/contract2.svg', './img/contract
 let imgsAzuis = ['./img/contract1-azul.svg', './img/contract2azul.svg', './img/contract3-azul.svg', './img/contract4-azul.svg', './img/contract5-azul.svg', './img/contract6-azul.svg', './img/contract7-azul.svg'];
 
 // CLICK
-mainEscritura.addEventListener('click', () => { location.href = '../servicos/escrituras.html' });
-mainInventario.addEventListener('click', () => { location.href = '../servicos/inventarios.html' });
-mainDivorcio.addEventListener('click', () => { location.href = '../servicos/divorcios.html' });
-mainUsucapiao.addEventListener('click', () => { location.href = '../servicos/usucapiao.html' });
-mainAta.addEventListener('click', () => { location.href = '../servicos/atas.html' });
-mainProcuracao.addEventListener('click', () => { location.href = '../servicos/procuracoes.html' });
-mainCertidao.addEventListener('click', () => { location.href = '../servicos/certidoes.html' });
+mainEscritura.addEventListener('click', () => { location.href = './servicos/escrituras.html' });
+mainInventario.addEventListener('click', () => { location.href = './servicos/inventarios.html' });
+mainDivorcio.addEventListener('click', () => { location.href = './servicos/divorcios.html' });
+mainUsucapiao.addEventListener('click', () => { location.href = './servicos/usucapiao.html' });
+mainAta.addEventListener('click', () => { location.href = './servicos/atas.html' });
+mainProcuracao.addEventListener('click', () => { location.href = './servicos/procuracoes.html' });
+mainCertidao.addEventListener('click', () => { location.href = './servicos/certidoes.html' });
 // HOVER
 mainEscritura.addEventListener('mouseover', () => { imgsTags[0].src = imgsAzuis[5] });
 mainInventario.addEventListener('mouseover', () => { imgsTags[1].src = imgsAzuis[3] });

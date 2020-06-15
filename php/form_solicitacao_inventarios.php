@@ -1,6 +1,6 @@
 <?php
 # Put your config
-$emailTo = "solicitacao@9oficioniteroi.com";
+$emailTo = "contato@9oficioniteroi.com";
 $vname = "Cartorio 9 Oficio Niteroi";
 $subject = "Pedido de Inventário";
 
