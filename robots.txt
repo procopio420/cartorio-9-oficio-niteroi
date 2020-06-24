@@ -1,1 +1,1 @@
-Sitemap: https://nono-oficio-niteroi.herokuapp.com/sitemap.xml
+Sitemap: http://9oficioniteroi.com/sitemap.xml

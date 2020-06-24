@@ -34,9 +34,7 @@ Tipo de Certidão: ' . $tipo_certidao . '
 
 ----------------------------------------------------------------';
  
- 
-mail($emailTo, $subject, $message);
-
+mail(utf8_decode($emailTo), utf8_decode($subject), utf8_decode($message), utf8_decode($email)."\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\n");
 
 if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
 
