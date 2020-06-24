@@ -385,15 +385,20 @@ textarea {
 }
 
 .serv-form input,
-textarea {
+textarea, select {
     margin: 5px 0;
     border: none;
     border-radius: 10px;
     width: 100%;
 }
 
-.serv-form input {
+.serv-form input, select {
     height: 40px;
+}
+
+.serv-form select {
+    background-color: white;
+    color: grey
 }
 
 .attention-container {

@@ -9,6 +9,7 @@ $subject = "Pedido de Certidão";
 $name     =  $_POST['name'];
 $email    =  $_POST['email'];
 $telefone =  $_POST['phone'];
+$escrevente =  $_POST['escrevente'];
 
 $tipo_certidao = $_POST['tipo'];
  
@@ -21,7 +22,7 @@ O seguinte pedido de Certidão foi realizado:
 Nome: ' . $name . '
 E-mail: ' . $email . '
 Telefone: ' . $telefone . '
-
+Escrevente de preferencia: ' . $escrevente . '
 
 |DADOS DA CERTIDAO|
 

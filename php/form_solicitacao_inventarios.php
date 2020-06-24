@@ -9,6 +9,7 @@ $subject = "Pedido de Inventário";
 $name     =  $_POST['name'];
 $email    =  $_POST['email'];
 $telefone =  $_POST['phone'];
+$escrevente =  $_POST['escrevente'];
  
 $message = '
 ----------------------------------------------------------------
@@ -19,7 +20,7 @@ O seguinte pedido de Inventário foi realizado:
 Nome: ' . $name . '
 E-mail: ' . $email . '
 Telefone: ' . $telefone . '
-
+Escrevente de preferencia: ' . $escrevente . '
 
 |DETALHES|
 

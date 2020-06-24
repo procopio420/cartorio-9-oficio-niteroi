@@ -9,6 +9,7 @@ $subject = "Pedido de Ata Notarial";
 $name     =  $_POST['name'];
 $email    =  $_POST['email'];
 $telefone =  $_POST['phone'];
+$escrevente =  $_POST['escrevente'];
 
 $objeto = $_POST['objeto'];
  
@@ -21,7 +22,7 @@ O seguinte pedido de Ata Notarial foi realizado:
 Nome: ' . $name . '
 E-mail: ' . $email . '
 Telefone: ' . $telefone . '
-
+Escrevente de preferencia: ' . $escrevente . '
 
 |DADOS DA ATA|
 

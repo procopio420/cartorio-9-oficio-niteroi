@@ -10,6 +10,7 @@ $name     =  $_POST['name'];
 $email    =  $_POST['email'];
 $telefone =  $_POST['phone'];
 $tipo_certidao = $_POST['tipo'];
+$escrevente =  $_POST['escrevente'];
  
 $message = '
 ----------------------------------------------------------------
@@ -20,7 +21,7 @@ O seguinte pedido de Escritura foi realizado:
 Nome: ' . $name . '
 E-mail: ' . $email . '
 Telefone: ' . $telefone . '
-
+Escrevente de preferencia: ' . $escrevente . '
 
 |DADOS DA ESCRITURA|
 

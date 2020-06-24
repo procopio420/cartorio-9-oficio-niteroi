@@ -12,6 +12,7 @@ $telefone =  $_POST['phone'];
 $outorgante = $_POST['outorgante'];
 $outorgado = $_POST['outorgado'];
 $finalidade = $_POST['finalidade'];
+$escrevente =  $_POST['escrevente'];
  
 $message = '
 ----------------------------------------------------------------
@@ -22,7 +23,7 @@ O seguinte pedido de Procuração foi realizado:
 Nome: ' . $name . '
 E-mail: ' . $email . '
 Telefone: ' . $telefone . '
-
+Escrevente de preferencia: ' . $escrevente . '
 
 |DADOS DA PROCURAÇÃO|
 
